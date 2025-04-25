@@ -2,16 +2,18 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 53190 - José Sebastián Alberto Barragán Landriel
+* 53210 - Shakir Chaya
+* 53187 - Santiago Kellemberger
+* 52984 - Nicolás Mazzaglia
+* 53116 - Franco Nicolás Sussi
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* [fullstack app](http://hyperlinkToGihubOrGitlab)
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Sistema de gestión para restaurantes que optimiza la experiencia del cliente y el trabajo del personal. A través de un QR único por mesa, el cliente puede visualizar el menú, realizar su pedido y efectuar el pago desde su dispositivo móvil. El sistema permite además la reserva anticipada de mesas, la recomendación de platos por parte de la cocina y una gestión integral por parte de mozos y administradores.
 
 ### Modelo
 ![imagen del modelo]()
@@ -22,22 +24,34 @@
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Comida<br>2. CRUD Mesa<br>3. CRUD - Usuario (Admin, Mozo, Cocina)<br> 4. CRUD - Novedades<br>5. CRUD - Horarios|
+|CRUD dependiente|1. CRUD Reserva {depende de} CRUD Mesa y CRUD Usuario<br>2. CRUD Pedido {depende de} CRUD Mesa y CRUD Comida|
+|Listado<br>+<br>detalle| 1. Listado de comida => Listado de las opciones del menu filtrado por tipo de plato o opción bebidas. Muestra IdComida, nombre, descripción (ingredientes), precio, tipo de plato<br> 2. Listado de mesa => Listado de todas las mesas del restaurante filtrado por mesa seleccionada. Muestra idMesa, estado, capacidad|
+|CUU/Epic|1. CUU - Preparar Comida<br>2. CUU - Pagar Pedido|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Comida
+<br>2. CRUD Mesa
+<br>3. CRUD - Usuario 
+<br> 4. CRUD - Novedades
+<br>5. CRUD - Linea de Pedido
+<br>6. CRUD - Histórico de Precios
+<br>7. CRUD - Reserva
+<br>8. CRUD - Pedido
+<br>9. CRUD - Novedades
+<br>10. CRUD - Horarios
+|
+|CUU/Epic| CUU01 - Atender_Reservas
+<br> CUU02 - Realizar_Pedido
+<br> CUU03 - Preparar_Comida
+<br> CUU04 - Pagar_Pedido
+<br> CUU05 - Cargar_Pedido |
 
 
 ### Alcance Adicional Voluntario
@@ -46,7 +60,8 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Listado de reservas => Listado de reservas filtrado por día. Muestra idReserva, horario, cantidad comensales, idMesa, nombreCliente, estado. <br>2. Listado Pedido => Listado de todos los pedidos del día. Muestra idPedido, idMesa, horaInicio. <br>3. Listado Usuario => Listado de todos los usuarios del sistema filtrado por nombre, tipoUsuario. Muestra idUsuario, nombre, apellido, DNI, teléfono, mail.
+| 
+|CUU/Epic|CUU06 - Modificar_Pedido<br>CUU07 - Agregar_Comida|
+|Otros|1. Recomendaciones por día de la cocina. <br>2. Implementación de gestión propia mediante QR code|
 
