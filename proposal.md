@@ -16,9 +16,7 @@
 Sistema de gestión para restaurantes que optimiza la experiencia del cliente y el trabajo del personal. A través de un QR único por mesa, el cliente puede visualizar el menú, realizar su pedido y efectuar el pago desde su dispositivo móvil. El sistema permite además la reserva anticipada de mesas, la recomendación de platos por parte de la cocina y una gestión integral por parte de mozos y administradores.
 
 ### Modelo
-![imagen del modelo](https://private-user-images.githubusercontent.com/124101873/438494256-665f60e9-8677-457b-805a-ec98ea2c445e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDU4ODUzNjAsIm5iZiI6MTc0NTg4NTA2MCwicGF0aCI6Ii8xMjQxMDE4NzMvNDM4NDk0MjU2LTY2NWY2MGU5LTg2NzctNDU3Yi04MDVhLWVjOThlYTJjNDQ1ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQyOVQwMDA0MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NjY4YjRhNmFlM2ZhZDFmYjFhZmYzOTEwMjQ4NmM5ZGJjNGExMzJkNmRkMGZhNTk0ZjY5MTg1NDZhYjhjYmE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.9CfdtU-XZUuvADkAAtDArAwqzc2NL89X-JUQy-oQKtQ)
-
-[Ver diagrama en Draw.io](https://app.diagrams.net/#G1ZZTWwdzDl7HK8M6k9Cmo_s4LIDZSxHR9#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D)
+[Ver diagrama en Draw.io]([https://app.diagrams.net/#G1ZZTWwdzDl7HK8M6k9Cmo_s4LIDZSxHR9#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D](https://drive.google.com/file/d/13MFX2FGwSIfcKgfaU-S0YrmG_0Gn1tV4/view?usp=sharing))
 
 
 ## Alcance Funcional 
