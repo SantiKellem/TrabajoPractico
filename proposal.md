@@ -16,7 +16,7 @@
 Sistema de gestión para restaurantes que optimiza la experiencia del cliente y el trabajo del personal. A través de un QR único por mesa, el cliente puede visualizar el menú, realizar su pedido y efectuar el pago desde su dispositivo móvil. El sistema permite además la reserva anticipada de mesas, la recomendación de platos por parte de la cocina y una gestión integral por parte de mozos y administradores.
 
 ### Modelo
-[Ver diagrama en Draw.io]([https://app.diagrams.net/#G1ZZTWwdzDl7HK8M6k9Cmo_s4LIDZSxHR9#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D](https://drive.google.com/file/d/13MFX2FGwSIfcKgfaU-S0YrmG_0Gn1tV4/view?usp=sharing))
+[Ver diagrama en Draw.io](https://drive.google.com/file/d/13MFX2FGwSIfcKgfaU-S0YrmG_0Gn1tV4/view?usp=sharing)
 
 
 ## Alcance Funcional 
